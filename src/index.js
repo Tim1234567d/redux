@@ -9,7 +9,7 @@ import { Provider } from 'react-redux';
 // action = { type:"", payload: ""}
 
 const defaultState = {
-  cash: 5,
+  cash: 0,
 }
 const reducer = (state =defaultState, action) => {
   
